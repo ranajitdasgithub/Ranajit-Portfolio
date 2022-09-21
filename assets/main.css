@@ -1,0 +1,142 @@
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+@import url(https://fonts.googleapis.com/css?family=Rubik);
+
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
+    display: block
+}
+
+h1,
+h2,
+h3,
+h4,
+strong {
+    margin-top: 1em;
+    padding-top: 1em;
+    line-height: 1.25;
+    color: #333
+}
+
+h2 {
+    font-size: 2rem
+}
+
+h3 {
+    font-size: 1.5rem
+}
+
+h4 {
+    font-size: 1rem
+}
+
+ol,
+ul {
+    padding-left: 40px
+}
+
+figure,
+ol,
+p,
+ul {
+    margin: 1em 0
+}
+
+a img {
+    border: 0
+}
+
+.tech {
+    margin: auto;
+}
+
+.user {
+    width: 90%;
+    margin-left: 10px;
+    
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    margin:auto;
+}
+#skill{
+    height:auto;
+}
+
+.user p {
+    font-size: 16px
+}
+
+@media only screen and (min-width:550px) {
+    .user {
+        flex-wrap: nowrap;
+        font-size: 75px
+    }
+}
+
+.user-details {
+    text-align: center;
+    margin: 5px auto
+}
+
+.footer {
+    background: #ffd549;
+ 
+    background: -webkit-linear-gradient(to right, #3e405c, #9e4429);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #627d85, #635316);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px 0;
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(226, 225, 225)
+}
+
+#Navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 40%;
+    margin-left: 10px;
+}
+#Navbar>h3{
+    margin-right: 12px;
+}
+#sk{
+    text-align: center;
+    font-size: 40px;
+    
+}
+/* MY Implementation */
+.contact_my_style{
+    color:white;
+    margin-left: 10px;
+}
+.logo>img{
+    max-width: 60px;
+    height: 60px;
+}
+
+.skill_logo_me{
+    margin-right: 1rem;
+}
+.GitCalendar{
+    padding-bottom: 11rem;
+    width:90%;
+    margin:auto;
+    
+}
+#gitcalendarHtag{
+    margin-bottom: 1.5rem;
+}
