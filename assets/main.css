@@ -102,16 +102,30 @@ a img {
     text-align: center;
     color: rgb(226, 225, 225)
 }
-
+#navContainer{
+    width:100%;
+    z-index: 15;
+    background-color: white;
+    border-bottom: 0px solid;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    position:fixed;
+    
+    top:0;
+    margin-top:-1rem;
+}
 #Navbar{
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
     width: 40%;
-    margin-left: 10px;
+    margin-left:15px;
+    margin-bottom:15px;
 }
 #Navbar>h3{
     margin-right: 12px;
+}
+#wholebody{
+    margin-top: 7rem;
 }
 #sk{
     text-align: center;
