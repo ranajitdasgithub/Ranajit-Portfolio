@@ -160,6 +160,12 @@ a img {
     gap:2.5rem;
     margin-top: 1rem;
 }
+@media only screen and (max-width:1000px) {
+    .techclass{
+        grid-template-columns: repeat(4,1fr);
+        gap:2rem;
+    }
+}
 @media only screen and (max-width:768px) {
     .techclass{
         grid-template-columns: repeat(3,1fr);
@@ -181,4 +187,13 @@ a img {
     padding: 1rem;
     width: 75%;
     height: 75%;
+}
+.skilldiv:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    background: rgb(196, 229, 235);
+}
+
+.techStackColor{
+    color: rgb(39, 177, 219);
+    font-weight: 600;
 }
