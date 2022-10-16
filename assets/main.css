@@ -151,13 +151,13 @@ a img {
 }
 /* skill section start */
 .tech {
-    width: 70%;
+    width: 50%;
     margin: auto;
 }
 .techclass{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    gap:2.5rem;
+    gap:1.5rem;
     margin-top: 1rem;
 }
 @media only screen and (max-width:1000px) {
@@ -181,16 +181,15 @@ a img {
     border-radius: 5px;
     align-items: center;
     justify-content: center;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    box-shadow: rgba(195, 40, 40, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
 .skilldiv>img{
     padding: 1rem;
-    width: 75%;
+    width:12vh;
     height: 75%;
 }
 .skilldiv:hover{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
-    background: rgb(196, 229, 235);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 .techStackColor{
